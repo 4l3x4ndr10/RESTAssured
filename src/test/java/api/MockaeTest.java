@@ -73,7 +73,6 @@ public class MockaeTest {
         Assertions.assertEquals(product.getName(), productResponse.getName());
     }
 
-    //
     //Тест 4.1 Обновление продукта
     @Test
     public void putProduct200Test() {
